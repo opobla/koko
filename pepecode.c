@@ -6,3 +6,7 @@ int pepe(int i) {
 int new_function(int i) {
     return i * 235;
 }
+
+int super_new_function(int i) {
+    return i + 666;
+}
