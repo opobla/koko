@@ -5,5 +5,5 @@ int koko(int i) {
 }
 
 void say_hello_to(char* name) {
-    printf("Hi %s, nice to meet you!", name);
+    printf("Hi I'm Carlos, nice to meet you!", name);
 }
