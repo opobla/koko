@@ -1,4 +1,10 @@
-
+int new_oscar_function(){
+    printf("lalalalalala\n");
+    printf("lalalalalala\n");
+    printf("lalalalalala\n");
+    printf("lalalalalala\n");
+    return 3;
+}
 
 int koko(int i) {
     return i * 2234;
