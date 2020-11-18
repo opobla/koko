@@ -43,6 +43,8 @@ int main() {
         int j=0;
         int number_of_active_users;
 
+        say_hello_to("Mohamed");
+
         printf("===== Welcome to maths ====\n");
         printf("- Compute 5 + 5 = %d \n", my_add(5 ,5));
         printf("- Compute 5^5 = %f \n", pow(5 ,5));
