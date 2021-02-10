@@ -33,6 +33,20 @@
   } ],
   "paths" : {
     "/project" : {
+      "get" : {
+        "summary" : "Get all the available projects",
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/Pet"
+              }
+            }
+          }
+        }
+      },
       "post" : {
         "summary" : "Create a new project for the autenticated user",
         "tags" : [ "project" ],
