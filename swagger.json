@@ -928,6 +928,6 @@
     "url" : "http://swagger.io"
   },
   "host" : "virtserver.swaggerhub.com",
-  "basePath" : "/m8765/PetStore/1.0.0",
-  "schemes" : [ "https", "http" ]
+  "schemes" : [ "https", "http" ],
+  "basePath" : "/opobla/Unifeedr/1.0.0"
 }
